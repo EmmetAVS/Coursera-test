@@ -1,2 +1,2 @@
-# Coursera-test
-Coursera test repository
+# Vividthreads store
+Vividthreads store page
