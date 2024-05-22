@@ -45,6 +45,13 @@
         .qr-code {
             width: 150px;
             margin-top: 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .qr-code:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            text-decoration: underline;
         }
 
         .column-container {
@@ -56,6 +63,10 @@
 
         .column {
             flex: 1;
+        }
+
+        .column img:hover {
+            background-color: rgba(0, 0, 0, 0.1)
         }
 
         .navbar {
@@ -135,38 +146,43 @@
 
     <section id="new-release">
         <h2>Newest Release</h2>
-        <div class="column-container">
-            <div class="column">
-                <img src="assets/rose_front_nb.png" alt="Front of Shirt">
+        <a href="https://www.bonfire.com/believe160-111/?productType=1d7eda58-3af0-46b5-a3fa-1fe8158a9fbe">
+            <div class="column-container">
+                <div class="column">
+                    <img src="assets/rose_front_nb.png" alt="Front of Shirt">
+                </div>
+                <div class="column">
+                    <img src="assets/rose_back_nb.png" alt="Back of Shirt">
+                </div>
             </div>
-            <div class="column">
-                <img src="assets/rose_back_nb.png" alt="Back of Shirt">
-            </div>
-        </div>
+        </a>
     </section>
-
     <section id="best-shirt">
         <h2>Best T-Shirt</h2>
-        <div class="column-container">
-            <div class="column">
-                <img src="assets/japan_front_nb.png" alt="Front of Shirt">
+        <a href="https://www.bonfire.com/dragon-print160/?productType=1d7eda58-3af0-46b5-a3fa-1fe8158a9fbe">
+            <div class="column-container">
+                <div class="column">
+                    <img src="assets/japan_front_nb.png" alt="Front of Shirt">
+                </div>
+                <div class="column">
+                    <img src="assets/japan_back_nb.png" alt="Back of Shirt">
+                </div>
             </div>
-            <div class="column">
-                <img src="assets/japan_back_nb.png" alt="Back of Shirt">
-            </div>
-        </div>
+        </a>
     </section>
 
     <section id="social-media">
         <h2>Most Viewed on Social Media</h2>
-        <div class="column-container">
-            <div class="column">
-                <img src="assets/alien_front_nb.png" alt="Front of Shirt">
+        <a href="https://www.bonfire.com/lets-get-out-1/?productType=1d7eda58-3af0-46b5-a3fa-1fe8158a9fbe">
+            <div class="column-container">
+                <div class="column">
+                    <img src="assets/alien_front_nb.png" alt="Front of Shirt">
+                </div>
+                <div class="column">
+                    <img src="assets/alien_back_nb.png" alt="Back of Shirt">
+                </div>
             </div>
-            <div class="column">
-                <img src="assets/alien_back_nb.png" alt="Back of Shirt">
-            </div>
-        </div>
+        </a>
     </section>
 
     <section id="our-story">
@@ -177,8 +193,12 @@
     <section>
    <section id="updates">
     <h2>Want To Get Updates On New T-Shirt Drops?</h2>
-    <p>Visit Our Instagram at <strong>@VVDTHREDS</strong></p>
-    <img src="assets/qr_nb.png" alt="Instagram QR Code" class="qr-code">
+    <p>Visit Our Instagram at <a class="qr-code" href="https://www.instagram.com/vvdthreds/"><strong>@VVDTHREDS</strong></a></p>
+    <a href="https://www.instagram.com/vvdthreds/">
+        <div>
+            <img src="assets/qr_nb.png" alt="Instagram QR Code" class="qr-code">
+        </div>
+    </a>
 </section>
 <footer>
     <p>To see the rest of the shirts, go back to SHOP NOW</p>
