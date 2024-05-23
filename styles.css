@@ -5,7 +5,7 @@ body {
     text-align: center;
     color: #333;
     line-height: 1.6;
-    background: linear-gradient(135deg, #FFB6C1, #E6E6FA, #FFFF00, #7FFFD4, #B0E0E6);
+    background: linear-gradient(135deg, #B0E0E6, #7fffea, #a1f0b5, #a1f0b5, #7fffea, #B0E0E6);
 }
 
 header, section, footer {
