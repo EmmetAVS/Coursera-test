@@ -1,0 +1,63 @@
+.polytrack {
+    margin-top:0px;
+}
+
+.polytrack h1 {
+    font-size:40px;
+    background: -webkit-linear-gradient(#b17ddb, #f07070);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+.polytrack p {
+    font-size:25px;
+    background: -webkit-linear-gradient(#b17ddb, #f07070);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+}
+.polytrack iframe {
+    width:1000px;
+    height:600px;
+}
+
+.basket-random {
+    margin-top:50px;
+}
+
+.basket-random h1 {
+    font-size:40px;
+    background: -webkit-linear-gradient(#db987d, #f07070);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+.basket-random p {
+    font-size:25px;
+    background: -webkit-linear-gradient(#db987d, #f07070);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+}
+.basket-random iframe {
+    width:1000px;
+    height:600px;
+}
+
+.game-header {
+    margin-top:50px;
+}
+
+.game-header h1 {
+    font-size: 50px;
+    background: -webkit-linear-gradient(#db887d, #f0ea70);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
