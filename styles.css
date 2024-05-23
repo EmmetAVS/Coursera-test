@@ -136,10 +136,16 @@ footer p {
     width: 50px;
     margin-top: 20px;
 }
+
 .shop-now {
     color: #FFB6C1;
     text-decoration: underline;
 }
+
 .shop-now:hover {
     color: #333;
+}
+
+.section h2 {
+    margin-top: 40px;
 }
