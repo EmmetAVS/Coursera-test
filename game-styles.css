@@ -45,7 +45,35 @@
     -webkit-text-fill-color: transparent;
     margin-top: 0px;
 }
+
 .basket-random iframe {
+    width:1000px;
+    height:600px;
+}
+
+.slope {
+    margin-top:50px;
+}
+
+.slope h1 {
+    font-size:40px;
+    background: -webkit-linear-gradient(90deg, #86db7d, #10601c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+.slope p {
+    font-size:25px;
+    background: -webkit-linear-gradient(90deg, #86db7d, #10601c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+}
+
+.slope iframe {
     width:1000px;
     height:600px;
 }
