@@ -149,3 +149,8 @@ footer p {
 .section h2 {
     margin-top: 40px;
 }
+
+.game-link {
+    text-decoration: none;
+    color: #666;
+}
